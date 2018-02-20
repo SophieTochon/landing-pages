@@ -1,0 +1,114 @@
+* {
+	font-family: Aleo, Sans-serif;
+	font-size: 96%;
+	letter-spacing: 2px;
+}
+
+/* TOP */
+
+	/* top bars */
+
+div.top {
+	background: url('/assets/blurred-background-99aafa3bc7761af4e896e8a1668e2ebc119aecb8acae768bbb8e50935fc64de2.png');
+	color: #ffffff;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul.top-left-bar {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+ul.top-left-bar li {
+	padding: 15px;
+}
+
+.logo {
+	width: 125px;
+}
+
+ul.top-right-bar {
+	display: flex;
+	margin-top: 30px;
+	margin-right: 250px;
+}
+
+ul.top-right-bar li {
+	padding: 15px;
+}
+
+li#get-started {
+	border: 2px solid #dfbd3e;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 15px;
+	color: #dfbd3e;
+}
+
+header ul {
+	list-style-type: none;
+}
+
+	/* text + video */
+
+div.text-video {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 202px;
+	margin-right: 250px;
+}
+
+div.top-left-column {
+	margin-top: 125px;
+}
+
+div.top-left-column h1 {
+	 font-size: 35px;
+	 font-weight: 900;
+	 margin-bottom: 0;
+}
+
+div.top-left-column p {
+	line-height: 200%;
+	font-weight: 100;
+}
+
+div.top-left-column button {
+	margin-top: 20px;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #3b5998;
+	font-weight: 800;
+	background-color: #dfbd3e;
+	border: 2px solid #dfbd3e;
+	border-radius: 4px;
+}
+
+video#top {
+	margin-top: 30px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
