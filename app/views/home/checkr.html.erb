@@ -3,16 +3,24 @@
 	<header>
 		<ul class="top-left-bar">
 			<li><a><%= image_tag "checkr-logo.png", class: "logo" %></a></li>
-			<li>PRODUCT</li>
-			<li>STAFFING</li>
-			<li>INDUSTRIES</li>
-			<li>RESOURCES</li>
+			<div class="product-dropdown">
+				<li class="dropdown-button">PRODUCT ▿</li>
+				<ul class="product-dropdown-content">
+					<li><a href="https://checkr.com/product/">Overview</a></li>
+					<li><a href="https://checkr.com/product/screenings/">Screenings</a></li>
+					<li><a href="https://checkr.com/product/compliance">Compliance</a></li>
+					<li><a href="https://checkr.com/product/security">Security</a></li>
+				</ul>
+			</div>
+			<li>STAFFING ▿</li>
+			<li>INDUSTRIES ▿</li>
+			<li>RESOURCES ▿</li>
 			<li>COMPLIANCE</li>
  		</ul>
 
  		<ul class="top-right-bar">
  			<li>LOG IN</li>
- 			<li id="get-started">GET STARTED →</li>
+ 			<li><a href="https://checkr.com/contact-us/" class="button-started">GET STARTED →</a></li>
  		</ul>
 	</header>
 
@@ -20,7 +28,7 @@
 		<div class="top-left-column">
 			<h1>HIRE GREAT PEOPLE.<br />FASTER.</h1>
 			<p>Checkr provides modern and compliant background <br /> checks for global enterprises and startups.</p>
-			<button>EXPLORE NOW →</button>
+			<a href="https://checkr.com/product/" class="button-explore">EXPLORE NOW →</a>
 		</div>
 
 		<div class="top-video">
@@ -41,5 +49,16 @@
 </section>
 
 <div class="footer">
-	
+	<ul class="terms">
+		<ul class="terms-first-line">
+			<a href="https://checkr.com/customer-agreement/">Customer Agreement<a>
+			<a href="https://checkr.com/privacy-policy"> Policy</a>
+		</ul>
+		<ul class="terms-second-line">
+			<a href="https://checkr.com/terms-of-service">Terms of Service</a>
+			<a>© 2018 Checkr, Inc.</a>
+		</ul>
+	</ul>
+
+	<p><%= image_tag "napbs.png", class: "napbs" %></p>
 </div>
